@@ -1,0 +1,15 @@
+C:/c++projects/voicechanger/build/CMakeFiles/reverb.dir
+C:/c++projects/voicechanger/build/CMakeFiles/edit_cache.dir
+C:/c++projects/voicechanger/build/CMakeFiles/rebuild_cache.dir
+C:/c++projects/voicechanger/build/CMakeFiles/list_install_components.dir
+C:/c++projects/voicechanger/build/CMakeFiles/install.dir
+C:/c++projects/voicechanger/build/CMakeFiles/install/local.dir
+C:/c++projects/voicechanger/build/CMakeFiles/install/strip.dir
+C:/c++projects/voicechanger/build/external/CMakeFiles/PortAudio.dir
+C:/c++projects/voicechanger/build/external/CMakeFiles/uninstall.dir
+C:/c++projects/voicechanger/build/external/CMakeFiles/edit_cache.dir
+C:/c++projects/voicechanger/build/external/CMakeFiles/rebuild_cache.dir
+C:/c++projects/voicechanger/build/external/CMakeFiles/list_install_components.dir
+C:/c++projects/voicechanger/build/external/CMakeFiles/install.dir
+C:/c++projects/voicechanger/build/external/CMakeFiles/install/local.dir
+C:/c++projects/voicechanger/build/external/CMakeFiles/install/strip.dir

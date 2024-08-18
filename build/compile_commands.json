@@ -1,0 +1,152 @@
+[
+{
+  "directory": "C:/c++projects/voicechanger/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/reverb.dir/includes_CXX.rsp -g -o CMakeFiles\\reverb.dir\\main.cpp.obj -c C:\\c++projects\\voicechanger\\main.cpp",
+  "file": "C:/c++projects/voicechanger/main.cpp",
+  "output": "CMakeFiles/reverb.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/reverb.dir/includes_CXX.rsp -g -o CMakeFiles\\reverb.dir\\AudioStream.cpp.obj -c C:\\c++projects\\voicechanger\\AudioStream.cpp",
+  "file": "C:/c++projects/voicechanger/AudioStream.cpp",
+  "output": "CMakeFiles/reverb.dir/AudioStream.cpp.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/reverb.dir/includes_CXX.rsp -g -o CMakeFiles\\reverb.dir\\SynthManager.cpp.obj -c C:\\c++projects\\voicechanger\\SynthManager.cpp",
+  "file": "C:/c++projects/voicechanger/SynthManager.cpp",
+  "output": "CMakeFiles/reverb.dir/SynthManager.cpp.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build",
+  "command": "C:\\mingw64\\bin\\c++.exe -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWXUSINGDLL -D_UNICODE @CMakeFiles/reverb.dir/includes_CXX.rsp -g -o CMakeFiles\\reverb.dir\\synth.cpp.obj -c C:\\c++projects\\voicechanger\\synth.cpp",
+  "file": "C:/c++projects/voicechanger/synth.cpp",
+  "output": "CMakeFiles/reverb.dir/synth.cpp.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\common\\pa_allocation.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\common\\pa_allocation.c",
+  "file": "C:/c++projects/voicechanger/external/src/common/pa_allocation.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\common\\pa_converters.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\common\\pa_converters.c",
+  "file": "C:/c++projects/voicechanger/external/src/common/pa_converters.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\common\\pa_cpuload.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\common\\pa_cpuload.c",
+  "file": "C:/c++projects/voicechanger/external/src/common/pa_cpuload.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\common\\pa_debugprint.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\common\\pa_debugprint.c",
+  "file": "C:/c++projects/voicechanger/external/src/common/pa_debugprint.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\common\\pa_dither.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\common\\pa_dither.c",
+  "file": "C:/c++projects/voicechanger/external/src/common/pa_dither.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\common\\pa_front.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\common\\pa_front.c",
+  "file": "C:/c++projects/voicechanger/external/src/common/pa_front.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\common\\pa_process.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\common\\pa_process.c",
+  "file": "C:/c++projects/voicechanger/external/src/common/pa_process.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\common\\pa_ringbuffer.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\common\\pa_ringbuffer.c",
+  "file": "C:/c++projects/voicechanger/external/src/common/pa_ringbuffer.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\common\\pa_stream.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\common\\pa_stream.c",
+  "file": "C:/c++projects/voicechanger/external/src/common/pa_stream.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\common\\pa_trace.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\common\\pa_trace.c",
+  "file": "C:/c++projects/voicechanger/external/src/common/pa_trace.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\os\\win\\pa_win_coinitialize.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\os\\win\\pa_win_coinitialize.c",
+  "file": "C:/c++projects/voicechanger/external/src/os/win/pa_win_coinitialize.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\os\\win\\pa_win_hostapis.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\os\\win\\pa_win_hostapis.c",
+  "file": "C:/c++projects/voicechanger/external/src/os/win/pa_win_hostapis.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\os\\win\\pa_win_util.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\os\\win\\pa_win_util.c",
+  "file": "C:/c++projects/voicechanger/external/src/os/win/pa_win_util.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\os\\win\\pa_win_version.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\os\\win\\pa_win_version.c",
+  "file": "C:/c++projects/voicechanger/external/src/os/win/pa_win_version.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\os\\win\\pa_win_waveformat.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\os\\win\\pa_win_waveformat.c",
+  "file": "C:/c++projects/voicechanger/external/src/os/win/pa_win_waveformat.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\hostapi\\dsound\\pa_win_ds.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\hostapi\\dsound\\pa_win_ds.c",
+  "file": "C:/c++projects/voicechanger/external/src/hostapi/dsound/pa_win_ds.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\hostapi\\dsound\\pa_win_ds_dynlink.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\hostapi\\dsound\\pa_win_ds_dynlink.c",
+  "file": "C:/c++projects/voicechanger/external/src/hostapi/dsound/pa_win_ds_dynlink.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\hostapi\\wmme\\pa_win_wmme.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\hostapi\\wmme\\pa_win_wmme.c",
+  "file": "C:/c++projects/voicechanger/external/src/hostapi/wmme/pa_win_wmme.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\hostapi\\wasapi\\pa_win_wasapi.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\hostapi\\wasapi\\pa_win_wasapi.c",
+  "file": "C:/c++projects/voicechanger/external/src/hostapi/wasapi/pa_win_wasapi.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\os\\win\\pa_win_wdmks_utils.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\os\\win\\pa_win_wdmks_utils.c",
+  "file": "C:/c++projects/voicechanger/external/src/os/win/pa_win_wdmks_utils.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.obj"
+},
+{
+  "directory": "C:/c++projects/voicechanger/build/external",
+  "command": "C:\\mingw64\\bin\\gcc.exe -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_USE_WASAPI=1 -DPA_USE_WDMKS=1 -DPA_USE_WMME=1 -DUNICODE -DWINVER=0x0501 -DWXUSINGDLL -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -D_WIN32_WINNT=0x0501 @CMakeFiles/PortAudio.dir/includes_C.rsp -g -o CMakeFiles\\PortAudio.dir\\src\\hostapi\\wdmks\\pa_win_wdmks.c.obj -c C:\\c++projects\\voicechanger\\external\\src\\hostapi\\wdmks\\pa_win_wdmks.c",
+  "file": "C:/c++projects/voicechanger/external/src/hostapi/wdmks/pa_win_wdmks.c",
+  "output": "external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.obj"
+}
+]

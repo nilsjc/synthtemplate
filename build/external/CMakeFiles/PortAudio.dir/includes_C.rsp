@@ -1,0 +1,1 @@
+-IC:/c++projects/voicechanger/external/include -IC:/c++projects/voicechanger/external/src/common -IC:/c++projects/voicechanger/external/src/os/win -IC:/c++projects/voicechanger/external/src/hostapi/dsound -isystem "C:/wxWidgets-3.2.5/lib/gcc_dll/mswu" -isystem "C:/wxWidgets-3.2.5/include"
