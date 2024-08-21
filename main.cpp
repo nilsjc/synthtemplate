@@ -5,6 +5,7 @@
 #include <iostream>
 #include "SynthManager.h"
 #include "AudioStream.h"
+#include <math.h>
 class MyFrame : public wxFrame
 {
 public:
@@ -16,13 +17,16 @@ public:
 private:
     softsynth::Manager manager;
     softsynth::Runner runner;
+    float a = 1.0221475755;
+    float C = 15.0;
+    float linToExp(int x);
     void OnSlChanged(wxCommandEvent &event);
     void StartStopAudio(wxCommandEvent &event);
     void OnKeyDown(wxKeyEvent& event);
     bool running = false;
     wxStaticText *label10 = new wxStaticText(this, 20010, "0");
     wxSlider* sliders[8]={
-        new wxSlider(this,101,50,1,100,wxDefaultPosition, wxDefaultSize, wxSL_VERTICAL, wxDefaultValidator),
+        new wxSlider(this,101,50,1,200,wxDefaultPosition, wxDefaultSize, wxSL_VERTICAL, wxDefaultValidator),
         new wxSlider(this,102,50,1,100,wxDefaultPosition, wxDefaultSize, wxSL_VERTICAL, wxDefaultValidator),
         new wxSlider(this,103,50,1,100,wxDefaultPosition, wxDefaultSize, wxSL_VERTICAL, wxDefaultValidator),
         new wxSlider(this,104,50,1,100,wxDefaultPosition, wxDefaultSize, wxSL_VERTICAL, wxDefaultValidator),
@@ -106,6 +110,11 @@ void MyFrame::OnKeyDown(wxKeyEvent &event)
     event.Skip();
 }
 
+float MyFrame::linToExp(int x)
+{
+    float x2 = (float)x;
+    return C * pow(a, x2);
+}
 
 void MyFrame::OnSlChanged(wxCommandEvent &event)
 {
@@ -115,7 +124,7 @@ void MyFrame::OnSlChanged(wxCommandEvent &event)
     {
         case 1:
         {
-            int freq = value;//(value)/15.0;
+            float freq = linToExp(value);//(value)/15.0;
             manager.SetFrequency(freq*2);
             label10->SetLabel(std::to_string(freq));
         }
