@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\c++projects\voicechanger
+CMAKE_SOURCE_DIR = C:\c++projects\synthtemplate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\c++projects\voicechanger\build
+CMAKE_BINARY_DIR = C:\c++projects\synthtemplate\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\c++projects\voicechanger\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\voicechanger\build\CMakeFiles C:\c++projects\voicechanger\build\external\\CMakeFiles\progress.marks
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\voicechanger\build\CMakeFiles 0
+	cd /d C:\c++projects\synthtemplate\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\synthtemplate\build\CMakeFiles C:\c++projects\synthtemplate\build\external\\CMakeFiles\progress.marks
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\synthtemplate\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/clean
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/preinstall
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/preinstall
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\c++projects\voicechanger\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\c++projects\synthtemplate\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/CMakeFiles/PortAudio.dir/rule:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/CMakeFiles/PortAudio.dir/rule
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/CMakeFiles/PortAudio.dir/rule
 .PHONY : external/CMakeFiles/PortAudio.dir/rule
 
 # Convenience name for target.
@@ -171,12 +171,12 @@ PortAudio: external/CMakeFiles/PortAudio.dir/rule
 
 # fast build rule for target.
 PortAudio/fast:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/build
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/build
 .PHONY : PortAudio/fast
 
 # Convenience name for target.
 external/CMakeFiles/uninstall.dir/rule:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/CMakeFiles/uninstall.dir/rule
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/CMakeFiles/uninstall.dir/rule
 .PHONY : external/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -185,7 +185,7 @@ uninstall: external/CMakeFiles/uninstall.dir/rule
 
 # fast build rule for target.
 uninstall/fast:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\uninstall.dir\build.make external/CMakeFiles/uninstall.dir/build
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\uninstall.dir\build.make external/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 src/common/pa_allocation.obj: src/common/pa_allocation.c.obj
@@ -193,7 +193,7 @@ src/common/pa_allocation.obj: src/common/pa_allocation.c.obj
 
 # target to build an object file
 src/common/pa_allocation.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.obj
 .PHONY : src/common/pa_allocation.c.obj
 
 src/common/pa_allocation.i: src/common/pa_allocation.c.i
@@ -201,7 +201,7 @@ src/common/pa_allocation.i: src/common/pa_allocation.c.i
 
 # target to preprocess a source file
 src/common/pa_allocation.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.i
 .PHONY : src/common/pa_allocation.c.i
 
 src/common/pa_allocation.s: src/common/pa_allocation.c.s
@@ -209,7 +209,7 @@ src/common/pa_allocation.s: src/common/pa_allocation.c.s
 
 # target to generate assembly for a file
 src/common/pa_allocation.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.s
 .PHONY : src/common/pa_allocation.c.s
 
 src/common/pa_converters.obj: src/common/pa_converters.c.obj
@@ -217,7 +217,7 @@ src/common/pa_converters.obj: src/common/pa_converters.c.obj
 
 # target to build an object file
 src/common/pa_converters.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.obj
 .PHONY : src/common/pa_converters.c.obj
 
 src/common/pa_converters.i: src/common/pa_converters.c.i
@@ -225,7 +225,7 @@ src/common/pa_converters.i: src/common/pa_converters.c.i
 
 # target to preprocess a source file
 src/common/pa_converters.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.i
 .PHONY : src/common/pa_converters.c.i
 
 src/common/pa_converters.s: src/common/pa_converters.c.s
@@ -233,7 +233,7 @@ src/common/pa_converters.s: src/common/pa_converters.c.s
 
 # target to generate assembly for a file
 src/common/pa_converters.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.s
 .PHONY : src/common/pa_converters.c.s
 
 src/common/pa_cpuload.obj: src/common/pa_cpuload.c.obj
@@ -241,7 +241,7 @@ src/common/pa_cpuload.obj: src/common/pa_cpuload.c.obj
 
 # target to build an object file
 src/common/pa_cpuload.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.obj
 .PHONY : src/common/pa_cpuload.c.obj
 
 src/common/pa_cpuload.i: src/common/pa_cpuload.c.i
@@ -249,7 +249,7 @@ src/common/pa_cpuload.i: src/common/pa_cpuload.c.i
 
 # target to preprocess a source file
 src/common/pa_cpuload.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.i
 .PHONY : src/common/pa_cpuload.c.i
 
 src/common/pa_cpuload.s: src/common/pa_cpuload.c.s
@@ -257,7 +257,7 @@ src/common/pa_cpuload.s: src/common/pa_cpuload.c.s
 
 # target to generate assembly for a file
 src/common/pa_cpuload.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.s
 .PHONY : src/common/pa_cpuload.c.s
 
 src/common/pa_debugprint.obj: src/common/pa_debugprint.c.obj
@@ -265,7 +265,7 @@ src/common/pa_debugprint.obj: src/common/pa_debugprint.c.obj
 
 # target to build an object file
 src/common/pa_debugprint.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.obj
 .PHONY : src/common/pa_debugprint.c.obj
 
 src/common/pa_debugprint.i: src/common/pa_debugprint.c.i
@@ -273,7 +273,7 @@ src/common/pa_debugprint.i: src/common/pa_debugprint.c.i
 
 # target to preprocess a source file
 src/common/pa_debugprint.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.i
 .PHONY : src/common/pa_debugprint.c.i
 
 src/common/pa_debugprint.s: src/common/pa_debugprint.c.s
@@ -281,7 +281,7 @@ src/common/pa_debugprint.s: src/common/pa_debugprint.c.s
 
 # target to generate assembly for a file
 src/common/pa_debugprint.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.s
 .PHONY : src/common/pa_debugprint.c.s
 
 src/common/pa_dither.obj: src/common/pa_dither.c.obj
@@ -289,7 +289,7 @@ src/common/pa_dither.obj: src/common/pa_dither.c.obj
 
 # target to build an object file
 src/common/pa_dither.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.obj
 .PHONY : src/common/pa_dither.c.obj
 
 src/common/pa_dither.i: src/common/pa_dither.c.i
@@ -297,7 +297,7 @@ src/common/pa_dither.i: src/common/pa_dither.c.i
 
 # target to preprocess a source file
 src/common/pa_dither.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.i
 .PHONY : src/common/pa_dither.c.i
 
 src/common/pa_dither.s: src/common/pa_dither.c.s
@@ -305,7 +305,7 @@ src/common/pa_dither.s: src/common/pa_dither.c.s
 
 # target to generate assembly for a file
 src/common/pa_dither.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.s
 .PHONY : src/common/pa_dither.c.s
 
 src/common/pa_front.obj: src/common/pa_front.c.obj
@@ -313,7 +313,7 @@ src/common/pa_front.obj: src/common/pa_front.c.obj
 
 # target to build an object file
 src/common/pa_front.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.obj
 .PHONY : src/common/pa_front.c.obj
 
 src/common/pa_front.i: src/common/pa_front.c.i
@@ -321,7 +321,7 @@ src/common/pa_front.i: src/common/pa_front.c.i
 
 # target to preprocess a source file
 src/common/pa_front.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.i
 .PHONY : src/common/pa_front.c.i
 
 src/common/pa_front.s: src/common/pa_front.c.s
@@ -329,7 +329,7 @@ src/common/pa_front.s: src/common/pa_front.c.s
 
 # target to generate assembly for a file
 src/common/pa_front.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.s
 .PHONY : src/common/pa_front.c.s
 
 src/common/pa_process.obj: src/common/pa_process.c.obj
@@ -337,7 +337,7 @@ src/common/pa_process.obj: src/common/pa_process.c.obj
 
 # target to build an object file
 src/common/pa_process.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.obj
 .PHONY : src/common/pa_process.c.obj
 
 src/common/pa_process.i: src/common/pa_process.c.i
@@ -345,7 +345,7 @@ src/common/pa_process.i: src/common/pa_process.c.i
 
 # target to preprocess a source file
 src/common/pa_process.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.i
 .PHONY : src/common/pa_process.c.i
 
 src/common/pa_process.s: src/common/pa_process.c.s
@@ -353,7 +353,7 @@ src/common/pa_process.s: src/common/pa_process.c.s
 
 # target to generate assembly for a file
 src/common/pa_process.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.s
 .PHONY : src/common/pa_process.c.s
 
 src/common/pa_ringbuffer.obj: src/common/pa_ringbuffer.c.obj
@@ -361,7 +361,7 @@ src/common/pa_ringbuffer.obj: src/common/pa_ringbuffer.c.obj
 
 # target to build an object file
 src/common/pa_ringbuffer.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.obj
 .PHONY : src/common/pa_ringbuffer.c.obj
 
 src/common/pa_ringbuffer.i: src/common/pa_ringbuffer.c.i
@@ -369,7 +369,7 @@ src/common/pa_ringbuffer.i: src/common/pa_ringbuffer.c.i
 
 # target to preprocess a source file
 src/common/pa_ringbuffer.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.i
 .PHONY : src/common/pa_ringbuffer.c.i
 
 src/common/pa_ringbuffer.s: src/common/pa_ringbuffer.c.s
@@ -377,7 +377,7 @@ src/common/pa_ringbuffer.s: src/common/pa_ringbuffer.c.s
 
 # target to generate assembly for a file
 src/common/pa_ringbuffer.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.s
 .PHONY : src/common/pa_ringbuffer.c.s
 
 src/common/pa_stream.obj: src/common/pa_stream.c.obj
@@ -385,7 +385,7 @@ src/common/pa_stream.obj: src/common/pa_stream.c.obj
 
 # target to build an object file
 src/common/pa_stream.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.obj
 .PHONY : src/common/pa_stream.c.obj
 
 src/common/pa_stream.i: src/common/pa_stream.c.i
@@ -393,7 +393,7 @@ src/common/pa_stream.i: src/common/pa_stream.c.i
 
 # target to preprocess a source file
 src/common/pa_stream.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.i
 .PHONY : src/common/pa_stream.c.i
 
 src/common/pa_stream.s: src/common/pa_stream.c.s
@@ -401,7 +401,7 @@ src/common/pa_stream.s: src/common/pa_stream.c.s
 
 # target to generate assembly for a file
 src/common/pa_stream.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.s
 .PHONY : src/common/pa_stream.c.s
 
 src/common/pa_trace.obj: src/common/pa_trace.c.obj
@@ -409,7 +409,7 @@ src/common/pa_trace.obj: src/common/pa_trace.c.obj
 
 # target to build an object file
 src/common/pa_trace.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.obj
 .PHONY : src/common/pa_trace.c.obj
 
 src/common/pa_trace.i: src/common/pa_trace.c.i
@@ -417,7 +417,7 @@ src/common/pa_trace.i: src/common/pa_trace.c.i
 
 # target to preprocess a source file
 src/common/pa_trace.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.i
 .PHONY : src/common/pa_trace.c.i
 
 src/common/pa_trace.s: src/common/pa_trace.c.s
@@ -425,7 +425,7 @@ src/common/pa_trace.s: src/common/pa_trace.c.s
 
 # target to generate assembly for a file
 src/common/pa_trace.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.s
 .PHONY : src/common/pa_trace.c.s
 
 src/hostapi/dsound/pa_win_ds.obj: src/hostapi/dsound/pa_win_ds.c.obj
@@ -433,7 +433,7 @@ src/hostapi/dsound/pa_win_ds.obj: src/hostapi/dsound/pa_win_ds.c.obj
 
 # target to build an object file
 src/hostapi/dsound/pa_win_ds.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.obj
 .PHONY : src/hostapi/dsound/pa_win_ds.c.obj
 
 src/hostapi/dsound/pa_win_ds.i: src/hostapi/dsound/pa_win_ds.c.i
@@ -441,7 +441,7 @@ src/hostapi/dsound/pa_win_ds.i: src/hostapi/dsound/pa_win_ds.c.i
 
 # target to preprocess a source file
 src/hostapi/dsound/pa_win_ds.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.i
 .PHONY : src/hostapi/dsound/pa_win_ds.c.i
 
 src/hostapi/dsound/pa_win_ds.s: src/hostapi/dsound/pa_win_ds.c.s
@@ -449,7 +449,7 @@ src/hostapi/dsound/pa_win_ds.s: src/hostapi/dsound/pa_win_ds.c.s
 
 # target to generate assembly for a file
 src/hostapi/dsound/pa_win_ds.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.s
 .PHONY : src/hostapi/dsound/pa_win_ds.c.s
 
 src/hostapi/dsound/pa_win_ds_dynlink.obj: src/hostapi/dsound/pa_win_ds_dynlink.c.obj
@@ -457,7 +457,7 @@ src/hostapi/dsound/pa_win_ds_dynlink.obj: src/hostapi/dsound/pa_win_ds_dynlink.c
 
 # target to build an object file
 src/hostapi/dsound/pa_win_ds_dynlink.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.obj
 .PHONY : src/hostapi/dsound/pa_win_ds_dynlink.c.obj
 
 src/hostapi/dsound/pa_win_ds_dynlink.i: src/hostapi/dsound/pa_win_ds_dynlink.c.i
@@ -465,7 +465,7 @@ src/hostapi/dsound/pa_win_ds_dynlink.i: src/hostapi/dsound/pa_win_ds_dynlink.c.i
 
 # target to preprocess a source file
 src/hostapi/dsound/pa_win_ds_dynlink.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.i
 .PHONY : src/hostapi/dsound/pa_win_ds_dynlink.c.i
 
 src/hostapi/dsound/pa_win_ds_dynlink.s: src/hostapi/dsound/pa_win_ds_dynlink.c.s
@@ -473,7 +473,7 @@ src/hostapi/dsound/pa_win_ds_dynlink.s: src/hostapi/dsound/pa_win_ds_dynlink.c.s
 
 # target to generate assembly for a file
 src/hostapi/dsound/pa_win_ds_dynlink.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.s
 .PHONY : src/hostapi/dsound/pa_win_ds_dynlink.c.s
 
 src/hostapi/wasapi/pa_win_wasapi.obj: src/hostapi/wasapi/pa_win_wasapi.c.obj
@@ -481,7 +481,7 @@ src/hostapi/wasapi/pa_win_wasapi.obj: src/hostapi/wasapi/pa_win_wasapi.c.obj
 
 # target to build an object file
 src/hostapi/wasapi/pa_win_wasapi.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.obj
 .PHONY : src/hostapi/wasapi/pa_win_wasapi.c.obj
 
 src/hostapi/wasapi/pa_win_wasapi.i: src/hostapi/wasapi/pa_win_wasapi.c.i
@@ -489,7 +489,7 @@ src/hostapi/wasapi/pa_win_wasapi.i: src/hostapi/wasapi/pa_win_wasapi.c.i
 
 # target to preprocess a source file
 src/hostapi/wasapi/pa_win_wasapi.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.i
 .PHONY : src/hostapi/wasapi/pa_win_wasapi.c.i
 
 src/hostapi/wasapi/pa_win_wasapi.s: src/hostapi/wasapi/pa_win_wasapi.c.s
@@ -497,7 +497,7 @@ src/hostapi/wasapi/pa_win_wasapi.s: src/hostapi/wasapi/pa_win_wasapi.c.s
 
 # target to generate assembly for a file
 src/hostapi/wasapi/pa_win_wasapi.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.s
 .PHONY : src/hostapi/wasapi/pa_win_wasapi.c.s
 
 src/hostapi/wdmks/pa_win_wdmks.obj: src/hostapi/wdmks/pa_win_wdmks.c.obj
@@ -505,7 +505,7 @@ src/hostapi/wdmks/pa_win_wdmks.obj: src/hostapi/wdmks/pa_win_wdmks.c.obj
 
 # target to build an object file
 src/hostapi/wdmks/pa_win_wdmks.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.obj
 .PHONY : src/hostapi/wdmks/pa_win_wdmks.c.obj
 
 src/hostapi/wdmks/pa_win_wdmks.i: src/hostapi/wdmks/pa_win_wdmks.c.i
@@ -513,7 +513,7 @@ src/hostapi/wdmks/pa_win_wdmks.i: src/hostapi/wdmks/pa_win_wdmks.c.i
 
 # target to preprocess a source file
 src/hostapi/wdmks/pa_win_wdmks.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.i
 .PHONY : src/hostapi/wdmks/pa_win_wdmks.c.i
 
 src/hostapi/wdmks/pa_win_wdmks.s: src/hostapi/wdmks/pa_win_wdmks.c.s
@@ -521,7 +521,7 @@ src/hostapi/wdmks/pa_win_wdmks.s: src/hostapi/wdmks/pa_win_wdmks.c.s
 
 # target to generate assembly for a file
 src/hostapi/wdmks/pa_win_wdmks.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.s
 .PHONY : src/hostapi/wdmks/pa_win_wdmks.c.s
 
 src/hostapi/wmme/pa_win_wmme.obj: src/hostapi/wmme/pa_win_wmme.c.obj
@@ -529,7 +529,7 @@ src/hostapi/wmme/pa_win_wmme.obj: src/hostapi/wmme/pa_win_wmme.c.obj
 
 # target to build an object file
 src/hostapi/wmme/pa_win_wmme.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.obj
 .PHONY : src/hostapi/wmme/pa_win_wmme.c.obj
 
 src/hostapi/wmme/pa_win_wmme.i: src/hostapi/wmme/pa_win_wmme.c.i
@@ -537,7 +537,7 @@ src/hostapi/wmme/pa_win_wmme.i: src/hostapi/wmme/pa_win_wmme.c.i
 
 # target to preprocess a source file
 src/hostapi/wmme/pa_win_wmme.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.i
 .PHONY : src/hostapi/wmme/pa_win_wmme.c.i
 
 src/hostapi/wmme/pa_win_wmme.s: src/hostapi/wmme/pa_win_wmme.c.s
@@ -545,7 +545,7 @@ src/hostapi/wmme/pa_win_wmme.s: src/hostapi/wmme/pa_win_wmme.c.s
 
 # target to generate assembly for a file
 src/hostapi/wmme/pa_win_wmme.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.s
 .PHONY : src/hostapi/wmme/pa_win_wmme.c.s
 
 src/os/win/pa_win_coinitialize.obj: src/os/win/pa_win_coinitialize.c.obj
@@ -553,7 +553,7 @@ src/os/win/pa_win_coinitialize.obj: src/os/win/pa_win_coinitialize.c.obj
 
 # target to build an object file
 src/os/win/pa_win_coinitialize.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.obj
 .PHONY : src/os/win/pa_win_coinitialize.c.obj
 
 src/os/win/pa_win_coinitialize.i: src/os/win/pa_win_coinitialize.c.i
@@ -561,7 +561,7 @@ src/os/win/pa_win_coinitialize.i: src/os/win/pa_win_coinitialize.c.i
 
 # target to preprocess a source file
 src/os/win/pa_win_coinitialize.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.i
 .PHONY : src/os/win/pa_win_coinitialize.c.i
 
 src/os/win/pa_win_coinitialize.s: src/os/win/pa_win_coinitialize.c.s
@@ -569,7 +569,7 @@ src/os/win/pa_win_coinitialize.s: src/os/win/pa_win_coinitialize.c.s
 
 # target to generate assembly for a file
 src/os/win/pa_win_coinitialize.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.s
 .PHONY : src/os/win/pa_win_coinitialize.c.s
 
 src/os/win/pa_win_hostapis.obj: src/os/win/pa_win_hostapis.c.obj
@@ -577,7 +577,7 @@ src/os/win/pa_win_hostapis.obj: src/os/win/pa_win_hostapis.c.obj
 
 # target to build an object file
 src/os/win/pa_win_hostapis.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.obj
 .PHONY : src/os/win/pa_win_hostapis.c.obj
 
 src/os/win/pa_win_hostapis.i: src/os/win/pa_win_hostapis.c.i
@@ -585,7 +585,7 @@ src/os/win/pa_win_hostapis.i: src/os/win/pa_win_hostapis.c.i
 
 # target to preprocess a source file
 src/os/win/pa_win_hostapis.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.i
 .PHONY : src/os/win/pa_win_hostapis.c.i
 
 src/os/win/pa_win_hostapis.s: src/os/win/pa_win_hostapis.c.s
@@ -593,7 +593,7 @@ src/os/win/pa_win_hostapis.s: src/os/win/pa_win_hostapis.c.s
 
 # target to generate assembly for a file
 src/os/win/pa_win_hostapis.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.s
 .PHONY : src/os/win/pa_win_hostapis.c.s
 
 src/os/win/pa_win_util.obj: src/os/win/pa_win_util.c.obj
@@ -601,7 +601,7 @@ src/os/win/pa_win_util.obj: src/os/win/pa_win_util.c.obj
 
 # target to build an object file
 src/os/win/pa_win_util.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.obj
 .PHONY : src/os/win/pa_win_util.c.obj
 
 src/os/win/pa_win_util.i: src/os/win/pa_win_util.c.i
@@ -609,7 +609,7 @@ src/os/win/pa_win_util.i: src/os/win/pa_win_util.c.i
 
 # target to preprocess a source file
 src/os/win/pa_win_util.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.i
 .PHONY : src/os/win/pa_win_util.c.i
 
 src/os/win/pa_win_util.s: src/os/win/pa_win_util.c.s
@@ -617,7 +617,7 @@ src/os/win/pa_win_util.s: src/os/win/pa_win_util.c.s
 
 # target to generate assembly for a file
 src/os/win/pa_win_util.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.s
 .PHONY : src/os/win/pa_win_util.c.s
 
 src/os/win/pa_win_version.obj: src/os/win/pa_win_version.c.obj
@@ -625,7 +625,7 @@ src/os/win/pa_win_version.obj: src/os/win/pa_win_version.c.obj
 
 # target to build an object file
 src/os/win/pa_win_version.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.obj
 .PHONY : src/os/win/pa_win_version.c.obj
 
 src/os/win/pa_win_version.i: src/os/win/pa_win_version.c.i
@@ -633,7 +633,7 @@ src/os/win/pa_win_version.i: src/os/win/pa_win_version.c.i
 
 # target to preprocess a source file
 src/os/win/pa_win_version.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.i
 .PHONY : src/os/win/pa_win_version.c.i
 
 src/os/win/pa_win_version.s: src/os/win/pa_win_version.c.s
@@ -641,7 +641,7 @@ src/os/win/pa_win_version.s: src/os/win/pa_win_version.c.s
 
 # target to generate assembly for a file
 src/os/win/pa_win_version.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.s
 .PHONY : src/os/win/pa_win_version.c.s
 
 src/os/win/pa_win_waveformat.obj: src/os/win/pa_win_waveformat.c.obj
@@ -649,7 +649,7 @@ src/os/win/pa_win_waveformat.obj: src/os/win/pa_win_waveformat.c.obj
 
 # target to build an object file
 src/os/win/pa_win_waveformat.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.obj
 .PHONY : src/os/win/pa_win_waveformat.c.obj
 
 src/os/win/pa_win_waveformat.i: src/os/win/pa_win_waveformat.c.i
@@ -657,7 +657,7 @@ src/os/win/pa_win_waveformat.i: src/os/win/pa_win_waveformat.c.i
 
 # target to preprocess a source file
 src/os/win/pa_win_waveformat.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.i
 .PHONY : src/os/win/pa_win_waveformat.c.i
 
 src/os/win/pa_win_waveformat.s: src/os/win/pa_win_waveformat.c.s
@@ -665,7 +665,7 @@ src/os/win/pa_win_waveformat.s: src/os/win/pa_win_waveformat.c.s
 
 # target to generate assembly for a file
 src/os/win/pa_win_waveformat.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.s
 .PHONY : src/os/win/pa_win_waveformat.c.s
 
 src/os/win/pa_win_wdmks_utils.obj: src/os/win/pa_win_wdmks_utils.c.obj
@@ -673,7 +673,7 @@ src/os/win/pa_win_wdmks_utils.obj: src/os/win/pa_win_wdmks_utils.c.obj
 
 # target to build an object file
 src/os/win/pa_win_wdmks_utils.c.obj:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.obj
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.obj
 .PHONY : src/os/win/pa_win_wdmks_utils.c.obj
 
 src/os/win/pa_win_wdmks_utils.i: src/os/win/pa_win_wdmks_utils.c.i
@@ -681,7 +681,7 @@ src/os/win/pa_win_wdmks_utils.i: src/os/win/pa_win_wdmks_utils.c.i
 
 # target to preprocess a source file
 src/os/win/pa_win_wdmks_utils.c.i:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.i
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.i
 .PHONY : src/os/win/pa_win_wdmks_utils.c.i
 
 src/os/win/pa_win_wdmks_utils.s: src/os/win/pa_win_wdmks_utils.c.s
@@ -689,7 +689,7 @@ src/os/win/pa_win_wdmks_utils.s: src/os/win/pa_win_wdmks_utils.c.s
 
 # target to generate assembly for a file
 src/os/win/pa_win_wdmks_utils.c.s:
-	cd /d C:\c++projects\voicechanger\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.s
+	cd /d C:\c++projects\synthtemplate\build && $(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.s
 .PHONY : src/os/win/pa_win_wdmks_utils.c.s
 
 # Help Target
@@ -780,6 +780,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\c++projects\voicechanger\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\c++projects\synthtemplate\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

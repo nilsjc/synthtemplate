@@ -1,8 +1,8 @@
-# Install script for directory: C:/c++projects/voicechanger/external
+# Install script for directory: C:/c++projects/synthtemplate/external
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/reverb")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/synthtemplate")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
+    set(CMAKE_INSTALL_CONFIG_NAME "")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
@@ -38,22 +38,22 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/PortAudio/portaudio" TYPE FILE FILES "C:/c++projects/voicechanger/external/README.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/PortAudio/portaudio" TYPE FILE FILES "C:/c++projects/synthtemplate/external/README.md")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/PortAudio/portaudio" TYPE FILE FILES "C:/c++projects/voicechanger/external/LICENSE.txt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/PortAudio/portaudio" TYPE FILE FILES "C:/c++projects/synthtemplate/external/LICENSE.txt")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/c++projects/voicechanger/build/external/portaudio-2.0.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/c++projects/synthtemplate/build/external/portaudio-2.0.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/portaudio/PortAudioTargets.cmake")
     file(DIFFERENT _cmake_export_file_changed FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/portaudio/PortAudioTargets.cmake"
-         "C:/c++projects/voicechanger/build/external/CMakeFiles/Export/90a8b282bce0779409342a760050f91f/PortAudioTargets.cmake")
+         "C:/c++projects/synthtemplate/build/external/CMakeFiles/Export/90a8b282bce0779409342a760050f91f/PortAudioTargets.cmake")
     if(_cmake_export_file_changed)
       file(GLOB _cmake_old_config_files "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/portaudio/PortAudioTargets-*.cmake")
       if(_cmake_old_config_files)
@@ -66,31 +66,31 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     endif()
     unset(_cmake_export_file_changed)
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/portaudio" TYPE FILE FILES "C:/c++projects/voicechanger/build/external/CMakeFiles/Export/90a8b282bce0779409342a760050f91f/PortAudioTargets.cmake")
-  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/portaudio" TYPE FILE FILES "C:/c++projects/voicechanger/build/external/CMakeFiles/Export/90a8b282bce0779409342a760050f91f/PortAudioTargets-debug.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/portaudio" TYPE FILE FILES "C:/c++projects/synthtemplate/build/external/CMakeFiles/Export/90a8b282bce0779409342a760050f91f/PortAudioTargets.cmake")
+  if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^()$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/portaudio" TYPE FILE FILES "C:/c++projects/synthtemplate/build/external/CMakeFiles/Export/90a8b282bce0779409342a760050f91f/PortAudioTargets-noconfig.cmake")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/portaudio" TYPE FILE FILES
-    "C:/c++projects/voicechanger/build/external/cmake/portaudio/PortAudioConfig.cmake"
-    "C:/c++projects/voicechanger/build/external/cmake/portaudio/PortAudioConfigVersion.cmake"
+    "C:/c++projects/synthtemplate/build/external/cmake/portaudio/PortAudioConfig.cmake"
+    "C:/c++projects/synthtemplate/build/external/cmake/portaudio/PortAudioConfigVersion.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/c++projects/voicechanger/build/external/libportaudio.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/c++projects/synthtemplate/build/external/libportaudio.a")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "C:/c++projects/voicechanger/external/include/portaudio.h"
-    "C:/c++projects/voicechanger/external/include/pa_win_waveformat.h"
-    "C:/c++projects/voicechanger/external/include/pa_win_ds.h"
-    "C:/c++projects/voicechanger/external/include/pa_win_wmme.h"
-    "C:/c++projects/voicechanger/external/include/pa_win_wasapi.h"
-    "C:/c++projects/voicechanger/external/include/pa_win_wdmks.h"
+    "C:/c++projects/synthtemplate/external/include/portaudio.h"
+    "C:/c++projects/synthtemplate/external/include/pa_win_waveformat.h"
+    "C:/c++projects/synthtemplate/external/include/pa_win_ds.h"
+    "C:/c++projects/synthtemplate/external/include/pa_win_wmme.h"
+    "C:/c++projects/synthtemplate/external/include/pa_win_wasapi.h"
+    "C:/c++projects/synthtemplate/external/include/pa_win_wdmks.h"
     )
 endif()
 

@@ -1,8 +1,8 @@
-if(NOT EXISTS "C:/c++projects/voicechanger/build/external/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: C:/c++projects/voicechanger/build/external/install_manifest.txt")
-endif(NOT EXISTS "C:/c++projects/voicechanger/build/external/install_manifest.txt")
+if(NOT EXISTS "C:/c++projects/synthtemplate/build/external/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: C:/c++projects/synthtemplate/build/external/install_manifest.txt")
+endif(NOT EXISTS "C:/c++projects/synthtemplate/build/external/install_manifest.txt")
 
-file(READ "C:/c++projects/voicechanger/build/external/install_manifest.txt" files)
+file(READ "C:/c++projects/synthtemplate/build/external/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach(file ${files})
   message(STATUS "Uninstalling $ENV{DESTDIR}${file}")

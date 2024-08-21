@@ -51,15 +51,15 @@ add_library(PortAudio STATIC IMPORTED)
 
 set_target_properties(PortAudio PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "PA_USE_DS=1;PA_USE_WMME=1;PA_USE_WASAPI=1;PA_USE_WDMKS=1"
-  INTERFACE_INCLUDE_DIRECTORIES "C:/c++projects/voicechanger/external/include;C:/c++projects/voicechanger/external/src/common"
+  INTERFACE_INCLUDE_DIRECTORIES "C:/c++projects/synthtemplate/external/include;C:/c++projects/synthtemplate/external/src/common"
   INTERFACE_LINK_LIBRARIES "\$<LINK_ONLY:Threads::Threads>;\$<LINK_ONLY:winmm>;\$<LINK_ONLY:dsound>;\$<LINK_ONLY:ole32>;\$<LINK_ONLY:uuid>;\$<LINK_ONLY:ole32>;\$<LINK_ONLY:uuid>;\$<LINK_ONLY:setupapi>;\$<LINK_ONLY:ole32>;\$<LINK_ONLY:uuid>"
 )
 
-# Import target "PortAudio" for configuration "Debug"
-set_property(TARGET PortAudio APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
+# Import target "PortAudio" for configuration ""
+set_property(TARGET PortAudio APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(PortAudio PROPERTIES
-  IMPORTED_LINK_INTERFACE_LANGUAGES_DEBUG "C"
-  IMPORTED_LOCATION_DEBUG "C:/c++projects/voicechanger/build/external/libportaudio.a"
+  IMPORTED_LINK_INTERFACE_LANGUAGES_NOCONFIG "C"
+  IMPORTED_LOCATION_NOCONFIG "C:/c++projects/synthtemplate/build/external/libportaudio.a"
   )
 
 # This file does not depend on other imported targets which have

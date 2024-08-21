@@ -53,16 +53,16 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\c++projects\voicechanger
+CMAKE_SOURCE_DIR = C:\c++projects\synthtemplate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\c++projects\voicechanger\build
+CMAKE_BINARY_DIR = C:\c++projects\synthtemplate\build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/reverb.dir/all
+all: CMakeFiles/synthtemplate.dir/all
 all: external/all
 .PHONY : all
 
@@ -71,7 +71,7 @@ preinstall: external/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/reverb.dir/clean
+clean: CMakeFiles/synthtemplate.dir/clean
 clean: external/clean
 .PHONY : clean
 
@@ -92,30 +92,30 @@ external/clean: external/CMakeFiles/uninstall.dir/clean
 .PHONY : external/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/reverb.dir
+# Target rules for target CMakeFiles/synthtemplate.dir
 
 # All Build rule for target.
-CMakeFiles/reverb.dir/all: external/CMakeFiles/PortAudio.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reverb.dir\build.make CMakeFiles/reverb.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reverb.dir\build.make CMakeFiles/reverb.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=23,24,25,26,27 "Built target reverb"
-.PHONY : CMakeFiles/reverb.dir/all
+CMakeFiles/synthtemplate.dir/all: external/CMakeFiles/PortAudio.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\synthtemplate.dir\build.make CMakeFiles/synthtemplate.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\synthtemplate.dir\build.make CMakeFiles/synthtemplate.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=23,24,25,26,27 "Built target synthtemplate"
+.PHONY : CMakeFiles/synthtemplate.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/reverb.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\voicechanger\build\CMakeFiles 27
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/reverb.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\voicechanger\build\CMakeFiles 0
-.PHONY : CMakeFiles/reverb.dir/rule
+CMakeFiles/synthtemplate.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\synthtemplate\build\CMakeFiles 27
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/synthtemplate.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\synthtemplate\build\CMakeFiles 0
+.PHONY : CMakeFiles/synthtemplate.dir/rule
 
 # Convenience name for target.
-reverb: CMakeFiles/reverb.dir/rule
-.PHONY : reverb
+synthtemplate: CMakeFiles/synthtemplate.dir/rule
+.PHONY : synthtemplate
 
 # clean rule for target.
-CMakeFiles/reverb.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reverb.dir\build.make CMakeFiles/reverb.dir/clean
-.PHONY : CMakeFiles/reverb.dir/clean
+CMakeFiles/synthtemplate.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\synthtemplate.dir\build.make CMakeFiles/synthtemplate.dir/clean
+.PHONY : CMakeFiles/synthtemplate.dir/clean
 
 #=============================================================================
 # Target rules for target external/CMakeFiles/PortAudio.dir
@@ -124,14 +124,14 @@ CMakeFiles/reverb.dir/clean:
 external/CMakeFiles/PortAudio.dir/all:
 	$(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\CMakeFiles\PortAudio.dir\build.make external/CMakeFiles/PortAudio.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target PortAudio"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22 "Built target PortAudio"
 .PHONY : external/CMakeFiles/PortAudio.dir/all
 
 # Build rule for subdir invocation for target.
 external/CMakeFiles/PortAudio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\voicechanger\build\CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\synthtemplate\build\CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/CMakeFiles/PortAudio.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\voicechanger\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\synthtemplate\build\CMakeFiles 0
 .PHONY : external/CMakeFiles/PortAudio.dir/rule
 
 # Convenience name for target.
@@ -150,14 +150,14 @@ external/CMakeFiles/PortAudio.dir/clean:
 external/CMakeFiles/uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f external\CMakeFiles\uninstall.dir\build.make external/CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f external\CMakeFiles\uninstall.dir\build.make external/CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : external/CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 external/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\voicechanger\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\synthtemplate\build\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 external/CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\voicechanger\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\synthtemplate\build\CMakeFiles 0
 .PHONY : external/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.

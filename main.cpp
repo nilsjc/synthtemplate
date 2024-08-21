@@ -16,7 +16,8 @@ public:
 private:
     softsynth::Manager manager;
     softsynth::Runner runner;
-    void OnSlSynthChanged(wxCommandEvent &event);
+    void OnSlChanged(wxCommandEvent &event);
+    void StartStopAudio(wxCommandEvent &event);
     void OnKeyDown(wxKeyEvent& event);
     bool running = false;
     wxStaticText *label10 = new wxStaticText(this, 20010, "0");
@@ -96,7 +97,12 @@ void MyFrame::StartStopAudio(wxCommandEvent &event)
 
 void MyFrame::OnKeyDown(wxKeyEvent &event)
 {
+    int keycode = event.GetKeyCode();
     label10->SetLabel(std::to_string(keycode));
+    if (keycode == 'q' || keycode == 'Q')
+    {
+        // do something
+    }
     event.Skip();
 }
 
@@ -110,7 +116,7 @@ void MyFrame::OnSlChanged(wxCommandEvent &event)
         case 1:
         {
             int freq = value;//(value)/15.0;
-            manager.SetFrequency(freq);
+            manager.SetFrequency(freq*2);
             label10->SetLabel(std::to_string(freq));
         }
         break;

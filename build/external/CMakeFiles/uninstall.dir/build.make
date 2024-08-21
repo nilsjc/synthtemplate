@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\c++projects\voicechanger
+CMAKE_SOURCE_DIR = C:\c++projects\synthtemplate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\c++projects\voicechanger\build
+CMAKE_BINARY_DIR = C:\c++projects\synthtemplate\build
 
 # Utility rule file for uninstall.
 
@@ -66,7 +66,7 @@ include external/CMakeFiles/uninstall.dir/compiler_depend.make
 include external/CMakeFiles/uninstall.dir/progress.make
 
 external/CMakeFiles/uninstall:
-	cd /d C:\c++projects\voicechanger\build\external && "C:\Program Files\CMake\bin\cmake.exe" -P C:/c++projects/voicechanger/build/external/cmake_uninstall.cmake
+	cd /d C:\c++projects\synthtemplate\build\external && "C:\Program Files\CMake\bin\cmake.exe" -P C:/c++projects/synthtemplate/build/external/cmake_uninstall.cmake
 
 uninstall: external/CMakeFiles/uninstall
 uninstall: external/CMakeFiles/uninstall.dir/build.make
@@ -77,10 +77,10 @@ external/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : external/CMakeFiles/uninstall.dir/build
 
 external/CMakeFiles/uninstall.dir/clean:
-	cd /d C:\c++projects\voicechanger\build\external && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
+	cd /d C:\c++projects\synthtemplate\build\external && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
 .PHONY : external/CMakeFiles/uninstall.dir/clean
 
 external/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\c++projects\voicechanger C:\c++projects\voicechanger\external C:\c++projects\voicechanger\build C:\c++projects\voicechanger\build\external C:\c++projects\voicechanger\build\external\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\c++projects\synthtemplate C:\c++projects\synthtemplate\external C:\c++projects\synthtemplate\build C:\c++projects\synthtemplate\build\external C:\c++projects\synthtemplate\build\external\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : external/CMakeFiles/uninstall.dir/depend
 

@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\c++projects\voicechanger
+CMAKE_SOURCE_DIR = C:\c++projects\synthtemplate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\c++projects\voicechanger\build
+CMAKE_BINARY_DIR = C:\c++projects\synthtemplate\build
 
 # Include any dependencies generated for this target.
 include external/CMakeFiles/PortAudio.dir/depend.make
@@ -70,318 +70,318 @@ include external/CMakeFiles/PortAudio.dir/flags.make
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.obj: C:/c++projects/voicechanger/external/src/common/pa_allocation.c
+external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.obj: C:/c++projects/synthtemplate/external/src/common/pa_allocation.c
 external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_allocation.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_allocation.c.obj -c C:\c++projects\voicechanger\external\src\common\pa_allocation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_allocation.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_allocation.c.obj -c C:\c++projects\synthtemplate\external\src\common\pa_allocation.c
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\common\pa_allocation.c > CMakeFiles\PortAudio.dir\src\common\pa_allocation.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\common\pa_allocation.c > CMakeFiles\PortAudio.dir\src\common\pa_allocation.c.i
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/common/pa_allocation.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\common\pa_allocation.c -o CMakeFiles\PortAudio.dir\src\common\pa_allocation.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\common\pa_allocation.c -o CMakeFiles\PortAudio.dir\src\common\pa_allocation.c.s
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.obj: C:/c++projects/voicechanger/external/src/common/pa_converters.c
+external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.obj: C:/c++projects/synthtemplate/external/src/common/pa_converters.c
 external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_converters.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_converters.c.obj -c C:\c++projects\voicechanger\external\src\common\pa_converters.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_converters.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_converters.c.obj -c C:\c++projects\synthtemplate\external\src\common\pa_converters.c
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/common/pa_converters.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\common\pa_converters.c > CMakeFiles\PortAudio.dir\src\common\pa_converters.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\common\pa_converters.c > CMakeFiles\PortAudio.dir\src\common\pa_converters.c.i
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_converters.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/common/pa_converters.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\common\pa_converters.c -o CMakeFiles\PortAudio.dir\src\common\pa_converters.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\common\pa_converters.c -o CMakeFiles\PortAudio.dir\src\common\pa_converters.c.s
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.obj: C:/c++projects/voicechanger/external/src/common/pa_cpuload.c
+external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.obj: C:/c++projects/synthtemplate/external/src/common/pa_cpuload.c
 external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_cpuload.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_cpuload.c.obj -c C:\c++projects\voicechanger\external\src\common\pa_cpuload.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_cpuload.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_cpuload.c.obj -c C:\c++projects\synthtemplate\external\src\common\pa_cpuload.c
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\common\pa_cpuload.c > CMakeFiles\PortAudio.dir\src\common\pa_cpuload.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\common\pa_cpuload.c > CMakeFiles\PortAudio.dir\src\common\pa_cpuload.c.i
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/common/pa_cpuload.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\common\pa_cpuload.c -o CMakeFiles\PortAudio.dir\src\common\pa_cpuload.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\common\pa_cpuload.c -o CMakeFiles\PortAudio.dir\src\common\pa_cpuload.c.s
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.obj: C:/c++projects/voicechanger/external/src/common/pa_debugprint.c
+external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.obj: C:/c++projects/synthtemplate/external/src/common/pa_debugprint.c
 external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_debugprint.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_debugprint.c.obj -c C:\c++projects\voicechanger\external\src\common\pa_debugprint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_debugprint.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_debugprint.c.obj -c C:\c++projects\synthtemplate\external\src\common\pa_debugprint.c
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\common\pa_debugprint.c > CMakeFiles\PortAudio.dir\src\common\pa_debugprint.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\common\pa_debugprint.c > CMakeFiles\PortAudio.dir\src\common\pa_debugprint.c.i
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/common/pa_debugprint.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\common\pa_debugprint.c -o CMakeFiles\PortAudio.dir\src\common\pa_debugprint.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\common\pa_debugprint.c -o CMakeFiles\PortAudio.dir\src\common\pa_debugprint.c.s
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.obj: C:/c++projects/voicechanger/external/src/common/pa_dither.c
+external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.obj: C:/c++projects/synthtemplate/external/src/common/pa_dither.c
 external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_dither.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_dither.c.obj -c C:\c++projects\voicechanger\external\src\common\pa_dither.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_dither.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_dither.c.obj -c C:\c++projects\synthtemplate\external\src\common\pa_dither.c
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/common/pa_dither.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\common\pa_dither.c > CMakeFiles\PortAudio.dir\src\common\pa_dither.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\common\pa_dither.c > CMakeFiles\PortAudio.dir\src\common\pa_dither.c.i
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_dither.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/common/pa_dither.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\common\pa_dither.c -o CMakeFiles\PortAudio.dir\src\common\pa_dither.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\common\pa_dither.c -o CMakeFiles\PortAudio.dir\src\common\pa_dither.c.s
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.obj: C:/c++projects/voicechanger/external/src/common/pa_front.c
+external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.obj: C:/c++projects/synthtemplate/external/src/common/pa_front.c
 external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_front.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_front.c.obj -c C:\c++projects\voicechanger\external\src\common\pa_front.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_front.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_front.c.obj -c C:\c++projects\synthtemplate\external\src\common\pa_front.c
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/common/pa_front.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\common\pa_front.c > CMakeFiles\PortAudio.dir\src\common\pa_front.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\common\pa_front.c > CMakeFiles\PortAudio.dir\src\common\pa_front.c.i
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_front.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/common/pa_front.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\common\pa_front.c -o CMakeFiles\PortAudio.dir\src\common\pa_front.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\common\pa_front.c -o CMakeFiles\PortAudio.dir\src\common\pa_front.c.s
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.obj: C:/c++projects/voicechanger/external/src/common/pa_process.c
+external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.obj: C:/c++projects/synthtemplate/external/src/common/pa_process.c
 external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_process.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_process.c.obj -c C:\c++projects\voicechanger\external\src\common\pa_process.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_process.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_process.c.obj -c C:\c++projects\synthtemplate\external\src\common\pa_process.c
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/common/pa_process.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\common\pa_process.c > CMakeFiles\PortAudio.dir\src\common\pa_process.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\common\pa_process.c > CMakeFiles\PortAudio.dir\src\common\pa_process.c.i
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_process.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/common/pa_process.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\common\pa_process.c -o CMakeFiles\PortAudio.dir\src\common\pa_process.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\common\pa_process.c -o CMakeFiles\PortAudio.dir\src\common\pa_process.c.s
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.obj: C:/c++projects/voicechanger/external/src/common/pa_ringbuffer.c
+external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.obj: C:/c++projects/synthtemplate/external/src/common/pa_ringbuffer.c
 external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_ringbuffer.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_ringbuffer.c.obj -c C:\c++projects\voicechanger\external\src\common\pa_ringbuffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_ringbuffer.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_ringbuffer.c.obj -c C:\c++projects\synthtemplate\external\src\common\pa_ringbuffer.c
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\common\pa_ringbuffer.c > CMakeFiles\PortAudio.dir\src\common\pa_ringbuffer.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\common\pa_ringbuffer.c > CMakeFiles\PortAudio.dir\src\common\pa_ringbuffer.c.i
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/common/pa_ringbuffer.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\common\pa_ringbuffer.c -o CMakeFiles\PortAudio.dir\src\common\pa_ringbuffer.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\common\pa_ringbuffer.c -o CMakeFiles\PortAudio.dir\src\common\pa_ringbuffer.c.s
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.obj: C:/c++projects/voicechanger/external/src/common/pa_stream.c
+external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.obj: C:/c++projects/synthtemplate/external/src/common/pa_stream.c
 external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_stream.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_stream.c.obj -c C:\c++projects\voicechanger\external\src\common\pa_stream.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_stream.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_stream.c.obj -c C:\c++projects\synthtemplate\external\src\common\pa_stream.c
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/common/pa_stream.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\common\pa_stream.c > CMakeFiles\PortAudio.dir\src\common\pa_stream.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\common\pa_stream.c > CMakeFiles\PortAudio.dir\src\common\pa_stream.c.i
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_stream.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/common/pa_stream.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\common\pa_stream.c -o CMakeFiles\PortAudio.dir\src\common\pa_stream.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\common\pa_stream.c -o CMakeFiles\PortAudio.dir\src\common\pa_stream.c.s
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.obj: C:/c++projects/voicechanger/external/src/common/pa_trace.c
+external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.obj: C:/c++projects/synthtemplate/external/src/common/pa_trace.c
 external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_trace.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_trace.c.obj -c C:\c++projects\voicechanger\external\src\common\pa_trace.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.obj -MF CMakeFiles\PortAudio.dir\src\common\pa_trace.c.obj.d -o CMakeFiles\PortAudio.dir\src\common\pa_trace.c.obj -c C:\c++projects\synthtemplate\external\src\common\pa_trace.c
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/common/pa_trace.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\common\pa_trace.c > CMakeFiles\PortAudio.dir\src\common\pa_trace.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\common\pa_trace.c > CMakeFiles\PortAudio.dir\src\common\pa_trace.c.i
 
 external/CMakeFiles/PortAudio.dir/src/common/pa_trace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/common/pa_trace.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\common\pa_trace.c -o CMakeFiles\PortAudio.dir\src\common\pa_trace.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\common\pa_trace.c -o CMakeFiles\PortAudio.dir\src\common\pa_trace.c.s
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.obj: C:/c++projects/voicechanger/external/src/os/win/pa_win_coinitialize.c
+external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.obj: C:/c++projects/synthtemplate/external/src/os/win/pa_win_coinitialize.c
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.obj -MF CMakeFiles\PortAudio.dir\src\os\win\pa_win_coinitialize.c.obj.d -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_coinitialize.c.obj -c C:\c++projects\voicechanger\external\src\os\win\pa_win_coinitialize.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.obj -MF CMakeFiles\PortAudio.dir\src\os\win\pa_win_coinitialize.c.obj.d -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_coinitialize.c.obj -c C:\c++projects\synthtemplate\external\src\os\win\pa_win_coinitialize.c
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\os\win\pa_win_coinitialize.c > CMakeFiles\PortAudio.dir\src\os\win\pa_win_coinitialize.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\os\win\pa_win_coinitialize.c > CMakeFiles\PortAudio.dir\src\os\win\pa_win_coinitialize.c.i
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/os/win/pa_win_coinitialize.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\os\win\pa_win_coinitialize.c -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_coinitialize.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\os\win\pa_win_coinitialize.c -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_coinitialize.c.s
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.obj: C:/c++projects/voicechanger/external/src/os/win/pa_win_hostapis.c
+external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.obj: C:/c++projects/synthtemplate/external/src/os/win/pa_win_hostapis.c
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.obj -MF CMakeFiles\PortAudio.dir\src\os\win\pa_win_hostapis.c.obj.d -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_hostapis.c.obj -c C:\c++projects\voicechanger\external\src\os\win\pa_win_hostapis.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.obj -MF CMakeFiles\PortAudio.dir\src\os\win\pa_win_hostapis.c.obj.d -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_hostapis.c.obj -c C:\c++projects\synthtemplate\external\src\os\win\pa_win_hostapis.c
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\os\win\pa_win_hostapis.c > CMakeFiles\PortAudio.dir\src\os\win\pa_win_hostapis.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\os\win\pa_win_hostapis.c > CMakeFiles\PortAudio.dir\src\os\win\pa_win_hostapis.c.i
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/os/win/pa_win_hostapis.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\os\win\pa_win_hostapis.c -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_hostapis.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\os\win\pa_win_hostapis.c -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_hostapis.c.s
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.obj: C:/c++projects/voicechanger/external/src/os/win/pa_win_util.c
+external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.obj: C:/c++projects/synthtemplate/external/src/os/win/pa_win_util.c
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.obj -MF CMakeFiles\PortAudio.dir\src\os\win\pa_win_util.c.obj.d -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_util.c.obj -c C:\c++projects\voicechanger\external\src\os\win\pa_win_util.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.obj -MF CMakeFiles\PortAudio.dir\src\os\win\pa_win_util.c.obj.d -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_util.c.obj -c C:\c++projects\synthtemplate\external\src\os\win\pa_win_util.c
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\os\win\pa_win_util.c > CMakeFiles\PortAudio.dir\src\os\win\pa_win_util.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\os\win\pa_win_util.c > CMakeFiles\PortAudio.dir\src\os\win\pa_win_util.c.i
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/os/win/pa_win_util.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\os\win\pa_win_util.c -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_util.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\os\win\pa_win_util.c -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_util.c.s
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.obj: C:/c++projects/voicechanger/external/src/os/win/pa_win_version.c
+external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.obj: C:/c++projects/synthtemplate/external/src/os/win/pa_win_version.c
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.obj -MF CMakeFiles\PortAudio.dir\src\os\win\pa_win_version.c.obj.d -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_version.c.obj -c C:\c++projects\voicechanger\external\src\os\win\pa_win_version.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.obj -MF CMakeFiles\PortAudio.dir\src\os\win\pa_win_version.c.obj.d -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_version.c.obj -c C:\c++projects\synthtemplate\external\src\os\win\pa_win_version.c
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\os\win\pa_win_version.c > CMakeFiles\PortAudio.dir\src\os\win\pa_win_version.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\os\win\pa_win_version.c > CMakeFiles\PortAudio.dir\src\os\win\pa_win_version.c.i
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/os/win/pa_win_version.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\os\win\pa_win_version.c -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_version.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\os\win\pa_win_version.c -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_version.c.s
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.obj: C:/c++projects/voicechanger/external/src/os/win/pa_win_waveformat.c
+external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.obj: C:/c++projects/synthtemplate/external/src/os/win/pa_win_waveformat.c
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.obj -MF CMakeFiles\PortAudio.dir\src\os\win\pa_win_waveformat.c.obj.d -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_waveformat.c.obj -c C:\c++projects\voicechanger\external\src\os\win\pa_win_waveformat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.obj -MF CMakeFiles\PortAudio.dir\src\os\win\pa_win_waveformat.c.obj.d -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_waveformat.c.obj -c C:\c++projects\synthtemplate\external\src\os\win\pa_win_waveformat.c
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\os\win\pa_win_waveformat.c > CMakeFiles\PortAudio.dir\src\os\win\pa_win_waveformat.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\os\win\pa_win_waveformat.c > CMakeFiles\PortAudio.dir\src\os\win\pa_win_waveformat.c.i
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/os/win/pa_win_waveformat.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\os\win\pa_win_waveformat.c -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_waveformat.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\os\win\pa_win_waveformat.c -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_waveformat.c.s
 
 external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.obj: C:/c++projects/voicechanger/external/src/hostapi/dsound/pa_win_ds.c
+external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.obj: C:/c++projects/synthtemplate/external/src/hostapi/dsound/pa_win_ds.c
 external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.obj -MF CMakeFiles\PortAudio.dir\src\hostapi\dsound\pa_win_ds.c.obj.d -o CMakeFiles\PortAudio.dir\src\hostapi\dsound\pa_win_ds.c.obj -c C:\c++projects\voicechanger\external\src\hostapi\dsound\pa_win_ds.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.obj -MF CMakeFiles\PortAudio.dir\src\hostapi\dsound\pa_win_ds.c.obj.d -o CMakeFiles\PortAudio.dir\src\hostapi\dsound\pa_win_ds.c.obj -c C:\c++projects\synthtemplate\external\src\hostapi\dsound\pa_win_ds.c
 
 external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\hostapi\dsound\pa_win_ds.c > CMakeFiles\PortAudio.dir\src\hostapi\dsound\pa_win_ds.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\hostapi\dsound\pa_win_ds.c > CMakeFiles\PortAudio.dir\src\hostapi\dsound\pa_win_ds.c.i
 
 external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\hostapi\dsound\pa_win_ds.c -o CMakeFiles\PortAudio.dir\src\hostapi\dsound\pa_win_ds.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\hostapi\dsound\pa_win_ds.c -o CMakeFiles\PortAudio.dir\src\hostapi\dsound\pa_win_ds.c.s
 
 external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.obj: C:/c++projects/voicechanger/external/src/hostapi/dsound/pa_win_ds_dynlink.c
+external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.obj: C:/c++projects/synthtemplate/external/src/hostapi/dsound/pa_win_ds_dynlink.c
 external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.obj -MF CMakeFiles\PortAudio.dir\src\hostapi\dsound\pa_win_ds_dynlink.c.obj.d -o CMakeFiles\PortAudio.dir\src\hostapi\dsound\pa_win_ds_dynlink.c.obj -c C:\c++projects\voicechanger\external\src\hostapi\dsound\pa_win_ds_dynlink.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.obj -MF CMakeFiles\PortAudio.dir\src\hostapi\dsound\pa_win_ds_dynlink.c.obj.d -o CMakeFiles\PortAudio.dir\src\hostapi\dsound\pa_win_ds_dynlink.c.obj -c C:\c++projects\synthtemplate\external\src\hostapi\dsound\pa_win_ds_dynlink.c
 
 external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\hostapi\dsound\pa_win_ds_dynlink.c > CMakeFiles\PortAudio.dir\src\hostapi\dsound\pa_win_ds_dynlink.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\hostapi\dsound\pa_win_ds_dynlink.c > CMakeFiles\PortAudio.dir\src\hostapi\dsound\pa_win_ds_dynlink.c.i
 
 external/CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/hostapi/dsound/pa_win_ds_dynlink.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\hostapi\dsound\pa_win_ds_dynlink.c -o CMakeFiles\PortAudio.dir\src\hostapi\dsound\pa_win_ds_dynlink.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\hostapi\dsound\pa_win_ds_dynlink.c -o CMakeFiles\PortAudio.dir\src\hostapi\dsound\pa_win_ds_dynlink.c.s
 
 external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.obj: C:/c++projects/voicechanger/external/src/hostapi/wmme/pa_win_wmme.c
+external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.obj: C:/c++projects/synthtemplate/external/src/hostapi/wmme/pa_win_wmme.c
 external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.obj -MF CMakeFiles\PortAudio.dir\src\hostapi\wmme\pa_win_wmme.c.obj.d -o CMakeFiles\PortAudio.dir\src\hostapi\wmme\pa_win_wmme.c.obj -c C:\c++projects\voicechanger\external\src\hostapi\wmme\pa_win_wmme.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.obj -MF CMakeFiles\PortAudio.dir\src\hostapi\wmme\pa_win_wmme.c.obj.d -o CMakeFiles\PortAudio.dir\src\hostapi\wmme\pa_win_wmme.c.obj -c C:\c++projects\synthtemplate\external\src\hostapi\wmme\pa_win_wmme.c
 
 external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\hostapi\wmme\pa_win_wmme.c > CMakeFiles\PortAudio.dir\src\hostapi\wmme\pa_win_wmme.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\hostapi\wmme\pa_win_wmme.c > CMakeFiles\PortAudio.dir\src\hostapi\wmme\pa_win_wmme.c.i
 
 external/CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/hostapi/wmme/pa_win_wmme.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\hostapi\wmme\pa_win_wmme.c -o CMakeFiles\PortAudio.dir\src\hostapi\wmme\pa_win_wmme.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\hostapi\wmme\pa_win_wmme.c -o CMakeFiles\PortAudio.dir\src\hostapi\wmme\pa_win_wmme.c.s
 
 external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.obj: C:/c++projects/voicechanger/external/src/hostapi/wasapi/pa_win_wasapi.c
+external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.obj: C:/c++projects/synthtemplate/external/src/hostapi/wasapi/pa_win_wasapi.c
 external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.obj -MF CMakeFiles\PortAudio.dir\src\hostapi\wasapi\pa_win_wasapi.c.obj.d -o CMakeFiles\PortAudio.dir\src\hostapi\wasapi\pa_win_wasapi.c.obj -c C:\c++projects\voicechanger\external\src\hostapi\wasapi\pa_win_wasapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.obj -MF CMakeFiles\PortAudio.dir\src\hostapi\wasapi\pa_win_wasapi.c.obj.d -o CMakeFiles\PortAudio.dir\src\hostapi\wasapi\pa_win_wasapi.c.obj -c C:\c++projects\synthtemplate\external\src\hostapi\wasapi\pa_win_wasapi.c
 
 external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\hostapi\wasapi\pa_win_wasapi.c > CMakeFiles\PortAudio.dir\src\hostapi\wasapi\pa_win_wasapi.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\hostapi\wasapi\pa_win_wasapi.c > CMakeFiles\PortAudio.dir\src\hostapi\wasapi\pa_win_wasapi.c.i
 
 external/CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/hostapi/wasapi/pa_win_wasapi.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\hostapi\wasapi\pa_win_wasapi.c -o CMakeFiles\PortAudio.dir\src\hostapi\wasapi\pa_win_wasapi.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\hostapi\wasapi\pa_win_wasapi.c -o CMakeFiles\PortAudio.dir\src\hostapi\wasapi\pa_win_wasapi.c.s
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.obj: C:/c++projects/voicechanger/external/src/os/win/pa_win_wdmks_utils.c
+external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.obj: C:/c++projects/synthtemplate/external/src/os/win/pa_win_wdmks_utils.c
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.obj -MF CMakeFiles\PortAudio.dir\src\os\win\pa_win_wdmks_utils.c.obj.d -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_wdmks_utils.c.obj -c C:\c++projects\voicechanger\external\src\os\win\pa_win_wdmks_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.obj -MF CMakeFiles\PortAudio.dir\src\os\win\pa_win_wdmks_utils.c.obj.d -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_wdmks_utils.c.obj -c C:\c++projects\synthtemplate\external\src\os\win\pa_win_wdmks_utils.c
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\os\win\pa_win_wdmks_utils.c > CMakeFiles\PortAudio.dir\src\os\win\pa_win_wdmks_utils.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\os\win\pa_win_wdmks_utils.c > CMakeFiles\PortAudio.dir\src\os\win\pa_win_wdmks_utils.c.i
 
 external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdmks_utils.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\os\win\pa_win_wdmks_utils.c -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_wdmks_utils.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\os\win\pa_win_wdmks_utils.c -o CMakeFiles\PortAudio.dir\src\os\win\pa_win_wdmks_utils.c.s
 
 external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.obj: external/CMakeFiles/PortAudio.dir/flags.make
 external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.obj: external/CMakeFiles/PortAudio.dir/includes_C.rsp
-external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.obj: C:/c++projects/voicechanger/external/src/hostapi/wdmks/pa_win_wdmks.c
+external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.obj: C:/c++projects/synthtemplate/external/src/hostapi/wdmks/pa_win_wdmks.c
 external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.obj: external/CMakeFiles/PortAudio.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.obj"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.obj -MF CMakeFiles\PortAudio.dir\src\hostapi\wdmks\pa_win_wdmks.c.obj.d -o CMakeFiles\PortAudio.dir\src\hostapi\wdmks\pa_win_wdmks.c.obj -c C:\c++projects\voicechanger\external\src\hostapi\wdmks\pa_win_wdmks.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.obj"
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.obj -MF CMakeFiles\PortAudio.dir\src\hostapi\wdmks\pa_win_wdmks.c.obj.d -o CMakeFiles\PortAudio.dir\src\hostapi\wdmks\pa_win_wdmks.c.obj -c C:\c++projects\synthtemplate\external\src\hostapi\wdmks\pa_win_wdmks.c
 
 external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.i"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\voicechanger\external\src\hostapi\wdmks\pa_win_wdmks.c > CMakeFiles\PortAudio.dir\src\hostapi\wdmks\pa_win_wdmks.c.i
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\c++projects\synthtemplate\external\src\hostapi\wdmks\pa_win_wdmks.c > CMakeFiles\PortAudio.dir\src\hostapi\wdmks\pa_win_wdmks.c.i
 
 external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.s"
-	cd /d C:\c++projects\voicechanger\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\voicechanger\external\src\hostapi\wdmks\pa_win_wdmks.c -o CMakeFiles\PortAudio.dir\src\hostapi\wdmks\pa_win_wdmks.c.s
+	cd /d C:\c++projects\synthtemplate\build\external && C:\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\c++projects\synthtemplate\external\src\hostapi\wdmks\pa_win_wdmks.c -o CMakeFiles\PortAudio.dir\src\hostapi\wdmks\pa_win_wdmks.c.s
 
 # Object files for target PortAudio
 PortAudio_OBJECTS = \
@@ -433,19 +433,19 @@ external/libportaudio.a: external/CMakeFiles/PortAudio.dir/src/os/win/pa_win_wdm
 external/libportaudio.a: external/CMakeFiles/PortAudio.dir/src/hostapi/wdmks/pa_win_wdmks.c.obj
 external/libportaudio.a: external/CMakeFiles/PortAudio.dir/build.make
 external/libportaudio.a: external/CMakeFiles/PortAudio.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\c++projects\voicechanger\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C static library libportaudio.a"
-	cd /d C:\c++projects\voicechanger\build\external && $(CMAKE_COMMAND) -P CMakeFiles\PortAudio.dir\cmake_clean_target.cmake
-	cd /d C:\c++projects\voicechanger\build\external && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PortAudio.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\c++projects\synthtemplate\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C static library libportaudio.a"
+	cd /d C:\c++projects\synthtemplate\build\external && $(CMAKE_COMMAND) -P CMakeFiles\PortAudio.dir\cmake_clean_target.cmake
+	cd /d C:\c++projects\synthtemplate\build\external && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PortAudio.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/CMakeFiles/PortAudio.dir/build: external/libportaudio.a
 .PHONY : external/CMakeFiles/PortAudio.dir/build
 
 external/CMakeFiles/PortAudio.dir/clean:
-	cd /d C:\c++projects\voicechanger\build\external && $(CMAKE_COMMAND) -P CMakeFiles\PortAudio.dir\cmake_clean.cmake
+	cd /d C:\c++projects\synthtemplate\build\external && $(CMAKE_COMMAND) -P CMakeFiles\PortAudio.dir\cmake_clean.cmake
 .PHONY : external/CMakeFiles/PortAudio.dir/clean
 
 external/CMakeFiles/PortAudio.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\c++projects\voicechanger C:\c++projects\voicechanger\external C:\c++projects\voicechanger\build C:\c++projects\voicechanger\build\external C:\c++projects\voicechanger\build\external\CMakeFiles\PortAudio.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\c++projects\synthtemplate C:\c++projects\synthtemplate\external C:\c++projects\synthtemplate\build C:\c++projects\synthtemplate\build\external C:\c++projects\synthtemplate\build\external\CMakeFiles\PortAudio.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : external/CMakeFiles/PortAudio.dir/depend
 

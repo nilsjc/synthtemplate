@@ -6,5 +6,5 @@ C_DEFINES = -DPAWIN_USE_WDMKS_DEVICE_INFO -DPA_LITTLE_ENDIAN -DPA_USE_DS=1 -DPA_
 
 C_INCLUDES = @CMakeFiles/PortAudio.dir/includes_C.rsp
 
-C_FLAGS = -g
+C_FLAGS = 
 

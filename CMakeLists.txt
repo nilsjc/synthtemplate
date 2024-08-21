@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.29.2)
-project(reverb)
+project(synthtemplate)
 
 if(GIT_FOUND AND EXISTS ".git")
 # Update submodules as needed
@@ -36,6 +36,6 @@ ELSE(wxWidgets_FOUND)
 ENDIF(wxWidgets_FOUND)
 
 
-#if(NOT EXISTS ${CMAKE_PROJECT_NAME}/sound/external/CMakeLists.txt)
+#if(NOT EXISTS ${CMAKE_PROJECT_NAME}/external/CMakeLists.txt)
 #    message(FATAL_ERROR "The submodules were not downloaded! GIT_SUBMODULE was turned off or failed. Please update submodules and try again.")
 #endif()

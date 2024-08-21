@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\c++projects\voicechanger
+CMAKE_SOURCE_DIR = C:\c++projects\synthtemplate
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\c++projects\voicechanger\build
+CMAKE_BINARY_DIR = C:\c++projects\synthtemplate\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\voicechanger\build\CMakeFiles C:\c++projects\voicechanger\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\synthtemplate\build\CMakeFiles C:\c++projects\synthtemplate\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\voicechanger\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\c++projects\synthtemplate\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -161,17 +161,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named reverb
+# Target rules for targets named synthtemplate
 
 # Build rule for target.
-reverb: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 reverb
-.PHONY : reverb
+synthtemplate: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 synthtemplate
+.PHONY : synthtemplate
 
 # fast build rule for target.
-reverb/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reverb.dir\build.make CMakeFiles/reverb.dir/build
-.PHONY : reverb/fast
+synthtemplate/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\synthtemplate.dir\build.make CMakeFiles/synthtemplate.dir/build
+.PHONY : synthtemplate/fast
 
 #=============================================================================
 # Target rules for targets named PortAudio
@@ -204,7 +204,7 @@ AudioStream.obj: AudioStream.cpp.obj
 
 # target to build an object file
 AudioStream.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reverb.dir\build.make CMakeFiles/reverb.dir/AudioStream.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\synthtemplate.dir\build.make CMakeFiles/synthtemplate.dir/AudioStream.cpp.obj
 .PHONY : AudioStream.cpp.obj
 
 AudioStream.i: AudioStream.cpp.i
@@ -212,7 +212,7 @@ AudioStream.i: AudioStream.cpp.i
 
 # target to preprocess a source file
 AudioStream.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reverb.dir\build.make CMakeFiles/reverb.dir/AudioStream.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\synthtemplate.dir\build.make CMakeFiles/synthtemplate.dir/AudioStream.cpp.i
 .PHONY : AudioStream.cpp.i
 
 AudioStream.s: AudioStream.cpp.s
@@ -220,7 +220,7 @@ AudioStream.s: AudioStream.cpp.s
 
 # target to generate assembly for a file
 AudioStream.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reverb.dir\build.make CMakeFiles/reverb.dir/AudioStream.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\synthtemplate.dir\build.make CMakeFiles/synthtemplate.dir/AudioStream.cpp.s
 .PHONY : AudioStream.cpp.s
 
 SynthManager.obj: SynthManager.cpp.obj
@@ -228,7 +228,7 @@ SynthManager.obj: SynthManager.cpp.obj
 
 # target to build an object file
 SynthManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reverb.dir\build.make CMakeFiles/reverb.dir/SynthManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\synthtemplate.dir\build.make CMakeFiles/synthtemplate.dir/SynthManager.cpp.obj
 .PHONY : SynthManager.cpp.obj
 
 SynthManager.i: SynthManager.cpp.i
@@ -236,7 +236,7 @@ SynthManager.i: SynthManager.cpp.i
 
 # target to preprocess a source file
 SynthManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reverb.dir\build.make CMakeFiles/reverb.dir/SynthManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\synthtemplate.dir\build.make CMakeFiles/synthtemplate.dir/SynthManager.cpp.i
 .PHONY : SynthManager.cpp.i
 
 SynthManager.s: SynthManager.cpp.s
@@ -244,7 +244,7 @@ SynthManager.s: SynthManager.cpp.s
 
 # target to generate assembly for a file
 SynthManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reverb.dir\build.make CMakeFiles/reverb.dir/SynthManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\synthtemplate.dir\build.make CMakeFiles/synthtemplate.dir/SynthManager.cpp.s
 .PHONY : SynthManager.cpp.s
 
 main.obj: main.cpp.obj
@@ -252,7 +252,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reverb.dir\build.make CMakeFiles/reverb.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\synthtemplate.dir\build.make CMakeFiles/synthtemplate.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -260,7 +260,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reverb.dir\build.make CMakeFiles/reverb.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\synthtemplate.dir\build.make CMakeFiles/synthtemplate.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -268,7 +268,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reverb.dir\build.make CMakeFiles/reverb.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\synthtemplate.dir\build.make CMakeFiles/synthtemplate.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 synth.obj: synth.cpp.obj
@@ -276,7 +276,7 @@ synth.obj: synth.cpp.obj
 
 # target to build an object file
 synth.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reverb.dir\build.make CMakeFiles/reverb.dir/synth.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\synthtemplate.dir\build.make CMakeFiles/synthtemplate.dir/synth.cpp.obj
 .PHONY : synth.cpp.obj
 
 synth.i: synth.cpp.i
@@ -284,7 +284,7 @@ synth.i: synth.cpp.i
 
 # target to preprocess a source file
 synth.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reverb.dir\build.make CMakeFiles/reverb.dir/synth.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\synthtemplate.dir\build.make CMakeFiles/synthtemplate.dir/synth.cpp.i
 .PHONY : synth.cpp.i
 
 synth.s: synth.cpp.s
@@ -292,7 +292,7 @@ synth.s: synth.cpp.s
 
 # target to generate assembly for a file
 synth.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\reverb.dir\build.make CMakeFiles/reverb.dir/synth.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\synthtemplate.dir\build.make CMakeFiles/synthtemplate.dir/synth.cpp.s
 .PHONY : synth.cpp.s
 
 # Help Target
@@ -309,7 +309,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... uninstall
 	@echo ... PortAudio
-	@echo ... reverb
+	@echo ... synthtemplate
 	@echo ... AudioStream.obj
 	@echo ... AudioStream.i
 	@echo ... AudioStream.s
