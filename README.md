@@ -1,0 +1,1 @@
+This is my template for creating new sound projects with portaudio and wxwidgets. Template contains a single sinewave oscillator with eight sliders but actually only two of them controlling the frequency and the volume.
